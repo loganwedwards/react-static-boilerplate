@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "webpack -p --progress --colors",
     "dev": "webpack-dev-server --content-base build/ --progress --colors",
-    "start": "npm run dev"
+    "start": "webpack -p --content-base build/ --watch --progress --colors"
   },
   "keywords": [
     "react",

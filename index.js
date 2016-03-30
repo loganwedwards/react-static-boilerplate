@@ -15,9 +15,11 @@ export default (locals, callback) => {
   const location = history.createLocation(locals.path);
 
   // poop out the contents of the page
-  let content = {
-    __html: ReactDOMServer.renderToString(<Router history={history}>{routes}</Router>)
-  }
+  // keep for now
+  
+  // let content = {
+  //   __html: ReactDOMServer.renderToString(<Router history={history}>{routes}</Router>)
+  // }
 
   // This is from the webpack plugin
   match({ routes, location }, (error, redirectLocation, renderProps) => {
