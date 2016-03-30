@@ -5,7 +5,7 @@ import { Router, RouterContext, match, browserHistory, createMemoryHistory } fro
 import routes from './routes';
 
 if (typeof document !== 'undefined') {
-  const outlet = document.getElementById('output');
+  const outlet = document.getElementById('outlet');
   ReactDOM.render(<Router history={browserHistory} routes={routes} />, outlet);
 }
 
