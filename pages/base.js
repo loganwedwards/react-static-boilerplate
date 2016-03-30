@@ -9,7 +9,7 @@ export default class extends Component {
           <title>Columbia Development</title>
         </head>
         <body>
-          
+          <Navigation />
           <div id="outlet" dangerouslySetInnerHTML={this.props.content}>
             {this.props.children}
           </div>
