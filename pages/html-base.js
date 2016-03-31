@@ -6,10 +6,8 @@ export default class extends Component {
       <html className="no-js" lang="en-us">
         <head>
           <title>Columbia Development</title>
-          <script type="text/javascript"></script>
         </head>
         <body>
-          <div id="shit"></div>
           <div id="outlet">
             {this.props.children}
           </div>
