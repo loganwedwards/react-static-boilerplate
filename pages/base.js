@@ -10,7 +10,7 @@ export default class extends Component {
         </head>
         <body>
           <Navigation />
-          <div id="outlet" dangerouslySetInnerHTML={this.props.content}>
+          <div id="outlet">
             {this.props.children}
           </div>
           <script src='/bundle.js'></script>
